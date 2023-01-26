@@ -1,0 +1,90 @@
+[
+  {
+    "name": "REVO ROCCO",
+    "model": "2022",
+    "carType": "AUV",
+    "seats": 4,
+    "gears": "5",
+    "price": 16000,
+    "image": "https://www.linkpicture.com/q/PngItem_1716576.png",
+    "qt": 3,
+    "description": "The REVO Rocco has been built from ground up to handle both driving on and off the road – built on body-on-frame platform with proper 4x4 functionality, the REVO Rocco comes loaded with a host of off-road features that augment the driving experience, and provide the driver unprecedented control over all terrains."
+  },
+  {
+    "name": "MERCEDES S63 AMG",
+    "model": "2020",
+    "carType": "Sedan-convertble",
+    "seats": 4,
+    "gears": "5",
+    "price": 45000,
+    "image": "https://www.linkpicture.com/q/PngItem_264751.png",
+    "qt": 1,
+    "descriptio": "The most powerful S-class ever offered is propelled by a 603-hp twin-turbo V-8 engine up front, with help from a 188-hp motor for the rear axle. Their combined efforts produce 791 horsepower and 1055 pound-feet of torque for the sedan's all-wheel drive system to process."
+  },
+  {
+    "name": "TOYOTA COROLLA",
+    "model": "2018",
+    "carType": "sedan",
+    "seats": 4,
+    "gears": "automatic",
+    "price": 10000,
+    "image": "https://www.linkpicture.com/q/526-5261017_toyota-corolla-2018-png-transparent-png.png",
+    "qt": 2,
+    "descriptio": "The 2018 Toyota Corolla ranks in the middle third of the compact car class. It has a great predicted reliability rating, and it's loaded with advanced safety features. However, many rivals offer zestier handling, stronger acceleration, and nicer cabin materials than the Corolla"
+  },
+  {
+    "name": "CIVIC",
+    "model": "2020",
+    "carType": "sedan",
+    "seats": 4,
+    "gears": "automatic",
+    "price": 10000,
+    "image": "https://www.linkpicture.com/q/PngItem_320400.png",
+    "qt": 2,
+    "descriptio": "The sedan features a manual transmission or a continuously variable automatic (CVT), while the coupe and hatch come with the CVT. Standard features include a 5-inch infotainment screen, Bluetooth, a four-speaker stereo, a USB port, automatic climate control, cloth seats, and a rearview camera."
+  },
+  {
+    "name": "PORSCHE",
+    "model": "911",
+    "carType": "COUPE",
+    "seats": 2,
+    "gears": "5",
+    "price": 40000,
+    "image": "https://www.linkpicture.com/q/PngItem_3405113.png",
+    "qt": 1,
+    "descriptio": "The Porsche 911 (pronounced Nine Eleven or in German: Neunelfer) is a two-door 2+2 high performance rear-engined sports car introduced in September 1964 by Porsche AG of Stuttgart, Germany. It has a rear-mounted flat-six engine and originally a torsion bar suspension"
+  },
+  {
+    "name": "CITY",
+    "model": "2011",
+    "carType": "SEDAN",
+    "seats": 4,
+    "gears": "AUTOMATIC",
+    "price": 10000,
+    "image": "",
+    "qt": 2,
+    "description": "The Petrol engine is 1497 cc and 1493 cc while the CNG engine is 1497 cc . It is available with Manual & Automatic transmission. Depending upon the variant and fuel type the City 2011-2013 has a mileage of 15.6 kmpl to 16.8 km/kg & Ground clearance of City 2011-2013 is 165mm."
+  },
+  {
+    "name": "VITZ",
+    "model": "2005",
+    "carType": "SEDAN",
+    "seats": 4,
+    "gears": "AUTOMATIC",
+    "price": 4000,
+    "image": "",
+    "qt": 2,
+    "description": "With a fuel consumption of 52.2 mpg US - 62.7 mpg UK - 4.5 L/100km, a curb weight of 2766 lbs (1255 kg), the Toyota Vitz 1.0 F has a 3 cylinder DOHC engine, a Regular gasoline engine 1KR-FE. This engine 1KR-FE produces a maximum power of 71.9 PS (71 bhp - 52.9 kW) at 6000 rpm and a maximum torque of 94.1 Nm (69.4 lb."
+  },
+  {
+    "name": "TOYOTA YARIS",
+    "model": "2021",
+    "carType": "SEDAN",
+    "seats": 4,
+    "gears": "5",
+    "price": 8000,
+    "image": "",
+    "qt": 1,
+    "description": "The 2021 Toyota Yaris measures 3940mm long, 1695mm wide and 1505mm tall, on a 2550mm wheelbase. Boot space is 270L, and the rear seats fold 60/40. Under the boot floor is a space-saver spare. The base Ascent Sport weighs between 1000kg and 1050kg (kerb), while the heaviest hybrid models tip the scales at 1130kg"
+  }
+]

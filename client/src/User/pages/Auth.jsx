@@ -41,7 +41,7 @@ const Auth = () => {
                 history.push('/')
              }).catch(err => {
                 setIsLoadin(false);
-                console.log(err);
+                alert("email or password is incorrect");
              });
     }, [history, login]);
    

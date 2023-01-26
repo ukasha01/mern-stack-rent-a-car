@@ -35,6 +35,7 @@ const DetailRentPage = (props) => {
              .then(res => {
                 setIsLoading(false);
                 setSelected(res.data.car);
+                console.log(res.data.car)
             }).catch(err => {
                 setIsLoading(false);
                 console.log(err);
@@ -48,10 +49,11 @@ const DetailRentPage = (props) => {
         { 'Content-Type': 'application/json' })
              .then(res => {
                 setIsLoading(false);
+                console.log(true)
                 history.push(`/my-orders/${userId}`)
             }).catch(err => {
                 setIsLoading(false);
-                console.log(err);
+                console.log(err.message);
             })
      }, [history, userId]);
 
@@ -62,7 +64,7 @@ const DetailRentPage = (props) => {
 
     let image
     if(selected.image){
-        image = `http://localhost:5000/${selected.image}`;
+        image = selected.image;
     }
 
     return(        
@@ -85,6 +87,8 @@ const DetailRentPage = (props) => {
                         </div>  
                         <img src={image} alt='car'/>                     
                         <p className='price'>Price - € <span>{fixedPrice}</span> /For a Day </p>
+                   <br />
+                    <p>{selected.description}</p>
                     </div>
                 }
                 <RentForm carId={carId}

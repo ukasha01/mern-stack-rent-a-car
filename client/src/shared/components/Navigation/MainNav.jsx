@@ -35,7 +35,7 @@ const MainNav = () => {
                         <p />
                         <p />
                     </div>                           
-                    <h1 className='logo'>Logo</h1>
+                    <h1 className='logo'>Dream Motors</h1>
                 </div>
                 <div className='company-ident'>
                     {

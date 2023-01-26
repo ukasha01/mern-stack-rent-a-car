@@ -7,10 +7,7 @@ require('dotenv').config();
 
 //Register new user
 const registerUser = async ( req, res ) => {
-    const errors = validationResult(req);
-    if(!errors.isEmpty()){
-        return res.status(422).json({ msg: 'Invalid input, please check your data' })
-    }
+    
 
     const { name, email, password } = req.body
 
@@ -18,7 +15,7 @@ const registerUser = async ( req, res ) => {
     try {
         user = await User.findOne({ email });
     }catch(err){
-        console.errors(err.message)
+        console.log(err.message)
         res.status(500).send({ msg: 'Server Error' })
     }
 
@@ -45,8 +42,8 @@ const registerUser = async ( req, res ) => {
 
     try{
         await user.save();
-    }catch{
-        console.errors(err.message);
+    }catch(err){
+        console.log(err.message);
         res.status(500).send({ msg: 'Server Error' });
     }
     
@@ -57,12 +54,12 @@ const registerUser = async ( req, res ) => {
             process.env.JWT_SECRET, 
             {expiresIn: '1h'});
     }catch(err){
-        console.errors(err.message);
+        console.log(err.message);
         res.status(500).send({ msg: 'Server Error' });
     };
 
     res.status(201).json({userId: user.id, name: user.name, token: token});
-};
+}
 
 //Login user
 const loginUser = async ( req, res ) => {

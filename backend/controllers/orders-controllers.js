@@ -11,6 +11,7 @@ const User = require('../models/user');
 //Create new Order entry
 const addOrder = async ( req, res ) => {
     const errors = validationResult(req);
+    console.log(errors)
     if(!errors.isEmpty()){
         return res.status(422).json({msg: 'Invalid inputs, please check your data.'});
     };
